@@ -1,0 +1,47 @@
+.features {
+    padding: 116px 0;
+    .features_card {
+        width: 370px;
+
+        &_icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+            & i {
+                width: 100px;  // указал временно пока не разберусь с икон. шрифтом
+                height: 100px;
+                font-size: $_72px;
+            }
+        }
+
+        &_title {
+            margin-bottom: 43px;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 900;
+            font-size: $_24px;
+            line-height: 28px;
+            text-align: center;
+            text-transform: uppercase;
+            color: $black;
+
+        }
+        &_description {
+             margin-bottom: 88px;
+               & p {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 400;
+                font-size: $_18px;
+                line-height: 21px;
+                text-align: center;
+                color: #6C7279;
+               }
+            }
+
+           }
+}
+
+
+// npm run start
